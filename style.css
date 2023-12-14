@@ -1,9 +1,29 @@
 /* styles.css */
 
-div {
+.div-one {
     color: white;
     background-color: red;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+}
+
+.p-odd {
+    background-color: #fba3a3;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.p-size {
+    font-size: 24px;
+}
+
+#div-two {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#div-four {
+    background-color: #80ff80;
+    font-weight: bold;
+    font-size: 24px;
 }

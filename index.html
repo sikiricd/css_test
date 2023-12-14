@@ -7,7 +7,7 @@
     <title>CSS Test Document</title>
 
     <style>
-        p {
+        .p-one {
             color: white;
             background-color: green;
             font-size: 18px;
@@ -16,8 +16,18 @@
     
 </head>
 <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
+    <h1>CSS Test Document</h1>
+        
+        <h2>Exercise #1: Methods</h2>
+            <div class="div-one">Style me via the external method!</div>
+            <p class="p-one">I would like to be styled with the internal method, please.</p>
+            <button style="background-color: orange; font-size: 18px;">Inline Method</button>
+
+        <h2>Exercise #2: Class & ID Selectors</h2>
+            <p class="p-odd">Number 1 - I'm a class!</p>
+            <div id="div-two">Number 2 - I'm one ID.</div>
+            <p class="p-odd size">Number 3 - I'm a class, but cooler!</p>
+            <div id="div-four">Number 4 - I'm another ID.</div>
+            <p class="p-odd">Number 5 - I'm a class!</p>
 </body>
 </html>
