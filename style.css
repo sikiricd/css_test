@@ -1,5 +1,7 @@
 /* styles.css */
 
+/* Exercise #1: Methods */
+
 .div-one {
     color: white;
     background-color: red;
@@ -7,6 +9,8 @@
     font-weight: bold;
     text-align: center;
 }
+
+/* Exercise #2: Class & ID Selectors */
 
 .p-odd {
     background-color: #fba3a3;
@@ -26,4 +30,21 @@
     background-color: #80ff80;
     font-weight: bold;
     font-size: 24px;
+}
+
+/* Exercise #3: Grouping Selectors */
+
+.black,
+.yellow {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
 }
